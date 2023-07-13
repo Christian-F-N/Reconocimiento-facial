@@ -1,42 +1,42 @@
-# Proyecto de Reconocimiento Facial con Algoritmos de Inteligencia Artificial
+# Facial Recognition Project with Artificial Intelligence Algorithms
 
-Este proyecto tiene como objetivo mejorar la precisión y eficiencia en la identificación de rostros utilizando algoritmos de inteligencia artificial. Se implementará en Python, haciendo uso de las librerías necesarias para el reconocimiento facial.
+This project aims to improve the accuracy and efficiency of facial identification using artificial intelligence algorithms. It will be implemented in Python, making use of the necessary libraries for facial recognition.
 
-## Requisitos de Hardware
+## Hardware Requirements
 
-- Computadora con capacidad suficiente para ejecutar algoritmos de inteligencia artificial.
-- Cámara web o dispositivo de captura de video para adquirir imágenes de los rostros.
+- Computer with sufficient capabilities to run artificial intelligence algorithms.
+- Webcam or video capture device to acquire face images.
 
-## Requisitos de Software
+## Software Requirements
 
 - Python 3.x
-- Librería OpenCV para el procesamiento de imágenes y detección facial.
-- Librería dlib para el reconocimiento facial y extracción de características.
-- Librería scikit-learn para el entrenamiento y clasificación de los rostros.
-- Otras dependencias adicionales que se requieran para las librerías anteriores.
+- OpenCV library for image processing and face detection.
+- dlib library for facial recognition and feature extraction.
+- scikit-learn library for training and classification of faces.
+- Other additional dependencies required for the aforementioned libraries.
 
-## Pasos de Implementación
+## Implementation Steps
 
-1. **Configuración del entorno**: Instala Python y las librerías mencionadas en los requisitos de software. Asegúrate de tener todas las dependencias necesarias correctamente instaladas.
+1. **Environment Setup**: Install Python and the libraries mentioned in the software requirements. Make sure you have all the necessary dependencies correctly installed.
 
-2. **Adquisición de datos de entrenamiento**: Recolecta una gran cantidad de imágenes de rostros, etiquetadas con las identidades correspondientes. Estas imágenes se utilizarán para entrenar el modelo de reconocimiento facial.
+2. **Training Data Acquisition**: Collect a large number of labeled face images corresponding to their respective identities. These images will be used to train the facial recognition model.
 
-3. **Detección facial**: Utiliza la librería OpenCV para detectar los rostros en las imágenes de entrada. Puedes utilizar algoritmos como Haar cascades o el detector de rostros basado en redes neuronales convolucionales (CNN) provisto por dlib.
+3. **Face Detection**: Use the OpenCV library to detect faces in the input images. You can use algorithms like Haar cascades or the CNN-based face detector provided by dlib.
 
-4. **Extracción de características**: Utiliza la librería dlib para extraer características faciales de los rostros detectados. Algunas características comunes incluyen la forma y la disposición de los ojos, nariz, boca, etc.
+4. **Feature Extraction**: Use the dlib library to extract facial features from the detected faces. Common features include the shape and arrangement of the eyes, nose, mouth, etc.
 
-5. **Entrenamiento del modelo**: Utiliza las características extraídas de los rostros para entrenar un modelo de reconocimiento facial utilizando algoritmos de aprendizaje automático, como Support Vector Machines (SVM) o redes neuronales.
+5. **Model Training**: Use the extracted face features to train a facial recognition model using machine learning algorithms such as Support Vector Machines (SVM) or neural networks.
 
-6. **Validación y ajuste del modelo**: Evalúa la precisión y eficiencia del modelo utilizando conjuntos de datos de prueba. Realiza ajustes en los parámetros y en el conjunto de características utilizadas para mejorar el rendimiento del modelo.
+6. **Model Validation and Fine-tuning**: Evaluate the accuracy and efficiency of the model using test datasets. Make adjustments to the parameters and the set of features used to improve the model's performance.
 
-7. **Implementación del sistema de reconocimiento facial**: Utiliza el modelo entrenado para reconocer rostros en tiempo real. Puedes utilizar la cámara web o dispositivos de captura de video para adquirir imágenes y enviarlas al sistema de reconocimiento facial.
+7. **Implementation of Facial Recognition System**: Use the trained model to recognize faces in real-time. You can use the webcam or video capture devices to acquire images and send them to the facial recognition system.
 
-8. **Pruebas y evaluación**: Realiza pruebas exhaustivas del sistema de reconocimiento facial en diferentes condiciones y escenarios para evaluar su precisión y eficiencia. Realiza ajustes adicionales si es necesario.
+8. **Testing and Evaluation**: Perform comprehensive testing of the facial recognition system in different conditions and scenarios to evaluate its accuracy and efficiency. Make additional adjustments if necessary.
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, siéntete libre de hacer fork del repositorio y enviar pull requests con tus mejoras.
+If you wish to contribute to this project, feel free to fork the repository and submit pull requests with your improvements.
 
-## Licencia
+## License
 
-Este proyecto se distribuye bajo la Licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para obtener más detalles.
+This project is distributed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
